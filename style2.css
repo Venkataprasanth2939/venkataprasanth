@@ -1,96 +1,108 @@
 *{
-    margin:0;
-    padding:0;
-    text-align: center;
+    margin: 0;
+    padding: 0;
 }
 body{
-    background-color: ivory;
+    background-color: lightskyblue;
     font-size: 15px;
 }
 nav ul{
     display: flex;
     justify-content: space-between;
-    align-items:center ;
+    align-items: center;
     list-style: none;
     right: 5px;
     padding: 10px 20px;
 }
 li{
     padding-right: 20px;
-    text-decoration: none;
+    cursor: pointer;
 }
 .links{
     text-decoration: none;
-    cursor: pointer;
 }
 #name{
-    
-    font-size: 50px;
-    color:crimson;
-    padding-right: 250px;
-    display: flex;
+    color: darkred;
+    font-size: 25px;
+    padding-right: 150px;
 }
-.HEADER{
-    font-size: 50px;
-    background-color: black;
-    color: white;
-    height: 100px;
-    padding-top: 55px;
-    margin-bottom: 10px;
+#home{
+    display: flex;
+    background-color: cornflowerblue;
+    height: 70px;
+    padding-top: 40px;
+    text-align: center;
+    font-size: 33px;
+    color: darkblue;
 }
 #profilepic{
-    margin: 10px 10px 10px 10px;
-    height: 400px;
+    height: 100px; 
+    width: 100px; 
+    margin: 10px 10px 0px 10px;
+    border-radius: 80px;
+}
+#about{
+    display: flex;
+    align-items: center;
+}
+#work{
+    background-color: steelblue;
+    color: maroon;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+hr{
     width: 400px;
-    border-radius: 200px;
-    transform: translate(-120%,20%);
 }
-#article1{
-    transform: translate(0px,-300px);
-    font-size: 25px;
-}
-#About{
-    background-color: aqua;
-    height: 600px;
-    margin-bottom: 10px;
-}
-#Work{
+.project{
+    background-color: white;
+    color: black;
+    height: 100px;
+    width: 200px;
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: space-around;
-    background-color: chartreuse;
+    border-radius: 10px;
+}
+#work p hr{
     margin-bottom: 10px;
 }
-.box{
-    width: 200px;
-    height: 200px;
-    background-color: aliceblue;
+#work div{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0px;
+    width: 100%;
 }
 li{
-    
+    display: flex;
+    justify-content: space-around;
     width: 100%;
+    list-style: none;
     padding: 3px;
 }
-#Skills{
-    font-size: 30px;
-    height: 600px;
-    background-color: lightcoral;
-    margin-bottom: 10px;
+progress[value]{
+    height: 10px;
+    width: 350px;
+    -webkit-appearance: none;
 }
-#skillscontainer{
-    padding-top: 0px;
-    height: 600px;
+#resume{
+    padding: 5px 0 5px 0;
+    font-size: 15px;
+    text-align: center;
 }
-#Contact{
-   font-size: 50px;
-   background-color: lightsalmon;
-   height: 600px;
-}
-form{
-    font-size: 30px;
-    padding-top: 100px;
-}
-#tt{
+#contact form{
+    color: coral;
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3px 0px 3px;
+}
+.input{
+    line-height: 12px;
+    width: 250px;
+    border-color: darkgoldenrod;
+    border-radius: 1px;
+    margin: 10px 0px;
 }

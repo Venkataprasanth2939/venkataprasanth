@@ -9,55 +9,71 @@
 </head>
 <body>
     <nav>
-        <ul id="tt">
-            <li>VENKATAPRASANTH P</li>
-            <li><a href="#Home" class="links">HOME</a></li>
-            <li><a href="#About" class="links">ABOUT</a></li>
-            <li><a href="#Work" class="links">WORK</a></li>
-            <li><a href="#Skills" class="links">SKILLS</a></li>
-            <li><a href="#Contact" class="links">CONTACT</a></li>
-        </ul></nav><BR><BR>
-        <header id="home"></header>
-        <p class="HEADER">HARD WORK BEATS TALENT IF TALENT DOES'NT WORK HARD.</p>
-        <section id="About">
-            <img id="profilepic" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqQMwq_mZ2I9qpXPhmIeJ5on2jZTavrF65Kw&usqp=CAU">
-            <article id="article1">I'm a hard working and self motivated person.</article>
-        </section>
-        <section id="Work">
-            <section class="box">
-                <h2>Chat bot GUI</h2>
-            </section>
-            <section class="box">
-                 <h2>AI Based Web App</h2>
-            </section>
-            <section class="box">
-                <h2>Self-Driving Car Simulation</h2>
-            </section>
-        </section>
-        <section id="Skills">
-            <h2>SKILLS</h2><br><br>
-            <div id="skillscontainer">
-                <ul>
-                    <li>HTML</li>
-                    <li><progress MAX="100" VALUE="80"></progress></li>
-                    <li>CSS</li>
-                    <li><progress MAX="100" VALUE="85"></progress></li>
-                    <li>C,C++</li>
-                    <li><progress MAX="100" VALUE="60"></progress></li>
-                    <li>PYTHON</li>
-                    <li><progress MAX="100" VALUE="90"></progress></li>
-                    <li>DATA STRUCTURES</li>
-                    <li><progress MAX="100" VALUE="50"></progress></li>
-                </ul>
+        <ul>
+            <li id="name">VENKATAPRASANTH P</li>
+            <li><a href="#home" class="links"><button>Home</button></a></li>
+            <li><a href="#about" class="links"><button>About</button></a></li>
+            <li><a href="#work" class="links">,<button>Work</button></a></li>
+            <li><a href="#skills" class="links"><button>Skills</button></a></li>
+            <li><a href="#contact" class="links"><button>Contact</button></a></li>
+        </ul>
+    </nav>
+    <header id="home">
+    <div>
+        <p><b>To accomplish great things,we must not only act but also dream,not only plan but also believe.</b></p>
+    </div>
+</header> 
+    <section id="about">
+        <img id="profilepic" src="VENKAT.jpeg">
+        <article><b>A talented, ambitious and hardworking individual, with broad skills and experience in digital and printed marketing, social media and leading projects.My eagerness to learn and motivated attitude is reflected in my previous work and experience with finding leads. I hope to leverage my background in writing to pursue news journalism and spread new ideas. I have a high level presentation skills which makes me a great orator.Highly responsible and a great team worker with remarkable knowledge in c,HTML and CSS.</b></article>
+    </section>
+    <section id="work">
+        <h3>Portfolio</h3>
+        <p>My Project</p>
+        <hr>
+        <div>
+            <article class="project">
+                <h4>Turbine Energy</h4>
+                <p>  Project like Energy production</p>
+            </article>
+            <article class="project">
+                <h4>Voltage Regulator</h4>
+                <p>Vary the current step up or step down using Transformer.</p>
+            </article>
+            <article class="project">
+                <h4>E Vechile Simulation</h4>
+                <p>Electric Charging Station for E Vechiles .</p>
+            </article>
+        </div>
+    </section>
+    <section id="skills">
+        <h3 style="text-align: center">Skills</h3>
+        <div id="skillcontainer">
+            <ul>
+                <li>HTML</li>
+                <li><progress max="100" value="70"></progress></li>
+                <li>CSS</li>
+                <li><progress max="100" value="60"></progress></li>
+                <li>C</li>
+                <li><progress max="100" value="80"></progress></li>
+                <li>Oratory Skills</li>
+                <li><progress max="100" value="95"></progress></li>
+                <li>Problem Solving Skills</li>
+                <li><progress max="100" value="90"></progress></li>
+            </ul>
+            <div id="resume"><h4>To know more</h4>
+            <a href="VENKATAPRASANTH P.pdf">Download Resume</a>
             </div>
-        </section>
-        <section id="Contact">
-        <footer>CONTACT</footer>
+        </div>
+    </section>
+    <footer id="contact">
+        <h4><center>Contact</center></h4>
         <form>
-            <input type="text" VALUE="ENTER YOUR NAME"></input><br><br>
-            <input type="text" value="ENTER YOUR EMAIL"></input><br><br>
-            <input type="text" value="ENTER YOUR NAME"></input><br><br>
-            <input type="button" value="SUBMIT"></input>
+            <input class="input" type="text" placeholder="Enter Your Name">
+            <input class="input" type="text" placeholder="Enter Your email">
+            <input class="input" type="text" placeholder="Enter Your Message">
+            <input id="button" type="button" placeholder="Submit">
         </form>
+    </footer>
 </body>
 </html>
