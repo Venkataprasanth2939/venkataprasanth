@@ -1,0 +1,96 @@
+*{
+    margin:0;
+    padding:0;
+    text-align: center;
+}
+body{
+    background-color: ivory;
+    font-size: 15px;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+    list-style: none;
+    right: 5px;
+    padding: 10px 20px;
+}
+li{
+    padding-right: 20px;
+    text-decoration: none;
+}
+.links{
+    text-decoration: none;
+    cursor: pointer;
+}
+#name{
+    
+    font-size: 50px;
+    color:crimson;
+    padding-right: 250px;
+    display: flex;
+}
+.HEADER{
+    font-size: 50px;
+    background-color: black;
+    color: white;
+    height: 100px;
+    padding-top: 55px;
+    margin-bottom: 10px;
+}
+#profilepic{
+    margin: 10px 10px 10px 10px;
+    height: 400px;
+    width: 400px;
+    border-radius: 200px;
+    transform: translate(-120%,20%);
+}
+#article1{
+    transform: translate(0px,-300px);
+    font-size: 25px;
+}
+#About{
+    background-color: aqua;
+    height: 600px;
+    margin-bottom: 10px;
+}
+#Work{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: chartreuse;
+    margin-bottom: 10px;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: aliceblue;
+}
+li{
+    
+    width: 100%;
+    padding: 3px;
+}
+#Skills{
+    font-size: 30px;
+    height: 600px;
+    background-color: lightcoral;
+    margin-bottom: 10px;
+}
+#skillscontainer{
+    padding-top: 0px;
+    height: 600px;
+}
+#Contact{
+   font-size: 50px;
+   background-color: lightsalmon;
+   height: 600px;
+}
+form{
+    font-size: 30px;
+    padding-top: 100px;
+}
+#tt{
+    display: flex;
+}
